@@ -12,7 +12,7 @@ public class Member {
 		this.id = id;
 	}
 
-	
+
 	//Set&Gets
 	public String getName() {return name;}
 	public void setName(String name) {this.name = name;}
@@ -23,4 +23,10 @@ public class Member {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 
+	//
+	public String getInfo() {
+		String info = "";
+		info = "ID" + this.getId() + ": " + this.getName() + "-" + this.getPersonalNumber();
+		return info;
+	}
 }
