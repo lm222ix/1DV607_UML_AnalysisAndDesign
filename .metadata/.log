@@ -1,0 +1,69 @@
+!SESSION 2015-09-24 10:44:42.882 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\ludde\Skola\UML Analys design -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.fx.ide.java6 4 0 2015-09-24 10:44:43.668
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.java6 [314]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version>=1.3)(!(version>=1.8)))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.ui 4 4 2015-09-24 10:44:48.223
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-09-24 10:45:00.010
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at MW3WLJXMZWT6MS7ZW54DPRFCFKJVVBRRVHZHP7V3H6KV32B5GJ45PU36ZUVUA5ENMVMWFXG24GP5OQFZM3M3CUCDVFZGG67A5DPHGTTWTXN6EVQCF7SSWUZMS3IDEUVNPHMTWUTW35QVYT2MQI44HVNRNNE66Y6XI4CGIB6OULOPH2RWMG2NLVYTES5Q6JI5654KBAYVB24HMNWSF7HBFCV6OT7RPZMF5YVEXAOGLPBR24LPYKYEWKLXFIPJVUQJDKAN47YBQY7UY5QVGS5FJASHAEXJ6X6743EH354NPSQPC3WVCT3EKER4MR2NJA5SO5TZE46BIFPYG3NI5KOKVC77AEWZVBJMU4WIWOL62YICHIHBBVEKLLQ2DTEAOZRY7USYA66TV6JZXLN5FBCJ7FQZZVGFRU54MUTYTLZD2KJWO2MV6XVJSZWANYPQUPACBAYVVDM7QH4ME6G6HHJCUW6XCWCU3CQFZFGN5KVUI23ZXAK3ZPRHWFBGOHNKUNXKWQDLBF6YP5Z7G7GJLW6GVMGUGO3SVZEELBMTMIHI54NRD64CGTIVJB2DMZEYP3S3PGIJUU363ATK4XGGWQPLYST6JJQYT76RRAARB6WEQOE5HDZEMDYPI5TGINQLDYD5R623C4FCGVECD247FTTOBUA2HKH7AGDHRD3D4ZSC4EJ2QJ2OX2BOIL5AYUU4XWQCYVRJPQ4VWTGD77KBTXMT7H3SYVAAWBXOWRLN5U5BZNBM5HRVJFJVDEIXGBGT4MXGY475ZBIARWA22TGMBGPCZTDZZJPKI5OAPI5PKJBETJMZQH4PM2GQNKOMLQMRKMFW3UDTVMI3OVVTUHC2CEU25V4TRXK7IAHKVSBDNIZ45N2YYE4DHJJMNT65GGRKEH6AO4TMQ46NXPDTFO2FJY2CADBG27GDZK2ZXXZQF2BHJBSNFFSNO7NTUU7FE2HBZ76J57W3HN5SEB7GJDUSNJGBUFPTIIZJYO7ZY3N42LUWT4LMOTMMN56GK4X4SU5GB5UJEYIFHE76SD3D6EUMAXAQBVJAG2QPBZLIUGXJM2EGWL7G3FLJURPOIZOXXJQHPYVSE4YHLST5UFTNFJFWGIBX2QA27TCY5ADJ3I263XGAQGIBUFOKP3RTDVUMNTCQFKLPBKCARERYLQBJTWBNIJ3QEEMGLOSDDWP3YSTZC7PTPQLONCWYVXUC2YQEAY6BHAOO4BQNMRY7LOAUDJRVQGOCRRIPZCMCMR3S36FSP2C6X5THALPG7RKNMW7LAGZ4YMZIGHUJHZIDPCBAMR7N7SVDOTK2BLNZWGMYVUSZ2KFO6YFGEMRWS7XDLE4GXOZMEHMSLDOVBHXA42MMY2EO6YYTP76QK3B5JTKPC6SIW4LJHKQM4Z5VRRDZ5ZUEWVYKUD4EKHDIHOR25OADYNNVIUNVE5GNYK5JDFJ3QNEWYXVC2FQFFWYGA4EWBQMC3F45U3QF76AV4KRNFBP4Z4W6T6WOKOAYK7GJXJRWGXQJJZI5MFXTRPV5Q4SKP7U2VTATZAAMOKL74IJT5D2C7YR6DTMMDHTSZGPNK5WTNKJA7MFRIFQLZ434ZE3MV5W7OYRYJSL7C7OL2PYTVZABM64KLZVVRMGSZ3KQYCOVEPVYPCXVCLGKO3ADG6TUXL4CPUOP2CHHATMBW4UUWTGZMC6IDGI5EDQCEPX5WRJCWIGEB2ERTFNJQGXUKY3SRBMPLYSWF4P3YOD7DU4PTRAZ4V6PZ5TF6M4IMBGUVEFAPSEI74GH6DCQS4PR5YRG5JWVMIQO2WLDJZ55FE3KS6LNA32SHB6V7WDG4IF2Z4UAK6XMP73HY7XMCN5K4BTAYTJAO6C4JNUDIJ3HBBLYX47TJCHWILAYHRWTUH2G6AQCKVAXIXY6TULARJNNPX77A2IRUG3KST2VD4UWW3L5WPAGTV2ZOH6LSC5LHAXVTNJYVFNRNTFINPPJ2PCRAQVJN4QGJ7IVR4U7VQJQSYFMLB2ZHKQHH6DP7TFJTRJRHG6BKPM3PYZHUG5THBHU2XZTT6JUOIZ67ICDQTIVGEJLZ2RIKW5NZBS7FKVKUWDHBOWOCDSUCFEOI3EPNOTQ2EB33U4QWYMCD33GCOVQZPACTPD3DV27SXEH64TJIIEYFEV5OFSWBPN6CTRNSGKZ6SNEDQ2MESWE75MUJM4UMAVPKOD3AYTQR5ALNOF54YYJCC42UBYN46OFE2YYKKUHTPA72NU4KB5NW7ETKQW5VOMWA2MPIJ3EUHYA6KGPJR2DSTXZ4VWP3UEMQRBCPJJDQURUR5GXJ4JWBDJECPYHOYGBOJONJLCGJWIPIBF6T47DDJ3WAKGBR4ZAMZ63XVILEBYSVSDUJTY55AS2DWTTLOEUV4YGIJSX7Q4NAIMMGAS6LHANX5DHI5B7E4EKOT7ZXVVBHMJWKP75UYQDCUKDXJCPHUVSUVHS5IXQ6U5EBRMIU5YPNJA7K2OPBYKKJ5L4H54WL27SCPVL6NY6JF6JIFCDVBQ2CHZWFQ3ZZ7ZJG5EIUJY6E6275TLNDLOMYMD6XC4TCKH2OONR3AVI3U4L7QACMUKTM2REOZI2UAS55XZ2DEYONOWHVLHW56ZMH6DYWBRJKVEUBQJPS7WT3VYH7AELBUP3LNRSL62RXAKYF4OMUEMSZYUZ3525XKTSIAQOBEZAYAHHXCWHZASFVHEGOVP3XQU5XRHQBAO63PY2BEHLJX3V5YW7L5YSH6GJKNC2EQJV3D4XGY3ERQHEN7J55DY24UMX67WJVAXBEDRCVB7ONP6UP3M2THXLAQB5BTJHJDHMD67XT4Q7FDA5F7P2JVU7YUE4WR5OYHTFFMXCGAFKXWZZF5ZJMEL3S6GGLR27SZATRCOQ2WKSMRO7XOCB66RATWNZCRXAMZCPJ5DRHAFE37V6ACGYATOFR4EI5XCXHNUVCR5MC2XV3UCJA4OJXUUEU4YC6L7FMWMU5AOUH5D2GD3XV4LWIXMEP2G6UZOMIFMKPJ3YBFDOMKPM23DJREKLXNXGF/F7USRBC3DEU2EDP2KKG7OMFB6E.<unknown>(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-09-24 10:45:03.710
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-24 10:46:09.571
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-24 10:46:09.571
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ludde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
