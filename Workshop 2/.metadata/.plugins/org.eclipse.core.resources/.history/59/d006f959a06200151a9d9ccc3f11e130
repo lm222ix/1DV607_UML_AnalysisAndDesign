@@ -1,0 +1,19 @@
+package Model;
+
+public class Boat {
+	private enum type{
+		Sailboat, 
+		Motorsailer, 
+		kayakCanoe, 
+		Other
+	};
+	
+	
+	private double length;
+	
+	public Boat(double length, type t) {
+		this.length = length;
+		
+	}
+	
+}

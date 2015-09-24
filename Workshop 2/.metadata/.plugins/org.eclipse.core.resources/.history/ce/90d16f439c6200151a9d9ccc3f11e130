@@ -1,0 +1,14 @@
+package Model;
+
+public class Boat {
+	private String name;
+	private String personalNumber;
+	private int id;
+	
+	
+	
+	public Boat() {
+		
+	}
+	
+}

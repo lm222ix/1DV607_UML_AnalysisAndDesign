@@ -1,0 +1,15 @@
+package Model;
+
+public class IDTracker {
+
+		int counter;
+		
+		public IDTracker() {
+			
+		}
+		public int assignID() {
+			counter++;
+			return this.counter;
+		}
+	}
+}
