@@ -47,7 +47,7 @@ public class DerbyDB {
     public void insertMember(Member member)
 
     {
-        String query = "(" + member.getName() + ", " + member.getPersonalNumber() + ", " + member.getId()+")";
+        String query = "(" + new Field(member.getName()) + ", " + new Field(member.getPersonalNumber()) + ", " + new Field(String.valueOf(member.getId()))+")";
         try {
             //questions marks mean they are anonymous
             connection.createStatement().execute("Insert into MEMBER values " + query);
@@ -55,6 +55,8 @@ public class DerbyDB {
             System.out.println(e.getMessage());
         }
     }
+
+
 
     public ResultSet query(String table) throws SQLException
     {
