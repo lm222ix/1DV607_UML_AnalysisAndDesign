@@ -5,6 +5,7 @@ public class Member {
 	private String name;
 	private String personalNumber;
 	private int id;
+
 	
 	public Member(String name, String pN, int id) {
 		this.name = name;

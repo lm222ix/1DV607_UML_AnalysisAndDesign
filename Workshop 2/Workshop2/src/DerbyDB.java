@@ -1,5 +1,13 @@
-import java.sql.*;
+import Model.Member;
 
+
+import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Time;
 
 
 /**
@@ -25,7 +33,28 @@ public class DerbyDB {
         connection = DriverManager.getConnection(JDBC_URL);
     }
 
+    public void createMemberTable() {
+        try
+        {
+            connection.createStatement().execute("create table MEMBER(Name varchar(40), PersonalNumber varchar(12), ID varchar(3))");
+          //  connection.createStatement().execute("create table TIMELINES(Title varchar(50), StartDate varchar(16), EndDate varchar (16), Duration varchar(160))");
 
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void insertMember(Member member)
+
+    {
+        String query = "(" + member.getName() + ", " + member.getPersonalNumber() + ", " + member.getId()+")";
+        try {
+            //questions marks mean they are anonymous
+            connection.createStatement().execute("Insert into MEMBER values " + query);
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
 
     public ResultSet query(String table) throws SQLException
     {
