@@ -51,10 +51,9 @@ public class DerbyDB {
     public void createMember(Member member)
 
     {
-        String query = member.toString();
         try {
             //questions marks mean they are anonymous
-            connection.createStatement().execute("Insert into MEMBER values " + query);
+            connection.createStatement().execute("Insert into MEMBER values " + member.toString());
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -70,6 +69,14 @@ public class DerbyDB {
     /*
     BOILER PLATE SHIT, DON'T WORRY ABOUT THIS
      */
+
+    public void createBoat(Boat boat) {
+        try {
+            connection.createStatement().execute("Insert into BOAT values" + boat.toString());
+        } catch(SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
 
 
     public ResultSet query(String table) throws SQLException
