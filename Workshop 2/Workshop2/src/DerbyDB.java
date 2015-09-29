@@ -47,10 +47,9 @@ public class DerbyDB {
     public void insertMember(Member member)
 
     {
-        String query = member.toString();
         try {
             //questions marks mean they are anonymous
-            connection.createStatement().execute("Insert into MEMBER values " + query);
+            connection.createStatement().execute("Insert into MEMBER values " + member.toString());
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

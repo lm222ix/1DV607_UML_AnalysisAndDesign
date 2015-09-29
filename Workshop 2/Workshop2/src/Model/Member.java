@@ -13,7 +13,6 @@ public class Member {
 		this.id = id;
 	}
 
-
 	//Set&Gets
 	public String getName() {return name;}
 	public void setName(String name) {this.name = name;}
