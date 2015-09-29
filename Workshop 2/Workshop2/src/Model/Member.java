@@ -7,10 +7,9 @@ public class Member {
 	private int id;
 
 	
-	public Member(String name, String pN, int id) {
+	public Member(String name, String pN) {
 		this.name = name;
 		this.personalNumber = pN;
-		this.id = id;
 	}
 
 	//Set&Gets

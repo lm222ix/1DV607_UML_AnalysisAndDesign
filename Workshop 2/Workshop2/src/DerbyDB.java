@@ -40,7 +40,7 @@ public class DerbyDB {
             connection.createStatement().execute("" +
                     "create table MEMBER(Name varchar(40), " +
                     "PersonalNumber varchar(12), " +
-                    "id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY)");
+                    "id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1))");
           //  connection.createStatement().execute("create table TIMELINES(Title varchar(50), StartDate varchar(16), EndDate varchar (16), Duration varchar(160))");
 
         } catch (SQLException e) {
@@ -53,7 +53,7 @@ public class DerbyDB {
     {
         try {
             //questions marks mean they are anonymous
-            connection.createStatement().execute("Insert into MEMBER values " + member.toString());
+            connection.createStatement().execute("Insert into MEMBER (Name, PersonalNumber) values " + member.toString());
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
