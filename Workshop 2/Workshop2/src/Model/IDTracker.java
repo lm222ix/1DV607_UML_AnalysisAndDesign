@@ -7,7 +7,7 @@ public class IDTracker {
 		counter = 0;
 	}
 	public int assignID() {
-		counter++;
+		//counter++;
 		return this.counter;
 	}
 }

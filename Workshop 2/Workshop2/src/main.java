@@ -11,9 +11,9 @@ public class main {
 
 		DerbyDB db = new DerbyDB();
 		db.createDB();
-		//db.createMemberTable();
-		//db.insertMember(a);
-		db.insertMember(b);
+        db.createMemberTable();
+		db.createMember(a);
+		db.createMember(b);
 		db.print(db.query("Member"));
 	}
 }
