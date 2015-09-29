@@ -1,5 +1,6 @@
 import Model.Boat;
 
+import javax.xml.transform.Result;
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
 
@@ -21,7 +22,8 @@ public class main {
 		//db.createBoat(c);
 		//db.createMember(b);
 		//db.print(db.query("Member"));
-
+		int val =  ((Number) db.getMemberID(a).getObject(1)).intValue(); // <---- TODO
+		System.out.println(val);
 		db.print(db.getMemberID(a));
 		//db.print(db.query("Boat"));
 	}
