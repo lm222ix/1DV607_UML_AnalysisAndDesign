@@ -29,9 +29,10 @@ public class Boat {
         return this.length;
     }
 
+
     @Override
     public String toString() {
-        return "(" + "'"+this.getType()+"'" + ", " + "'" + this.getLength() + "'" + ", " + "'" + String.valueOf(this.getLength()) + "'" + ")";
+        return "(" + "'"+this.getType()+"'" + "," +  "'" + String.valueOf(this.getLength()) + "'" + ")";
     }
 	
 }

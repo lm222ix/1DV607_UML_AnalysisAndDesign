@@ -47,6 +47,13 @@ public class DerbyDB {
         }
     }
 
+    public void createBoatTable() {
+        try {
+            connection.createStatement().execute("" +
+                    "create table BOAT()
+            )
+        }
+    }
     public void dropTable(String table) {
         try {
             connection.createStatement().execute("DROP TABLE " + table);
@@ -56,7 +63,6 @@ public class DerbyDB {
     }
 
     public void createMember(Member member)
-
     {
         try {
             //questions marks mean they are anonymous
@@ -77,7 +83,6 @@ public class DerbyDB {
     /*
     BOILER PLATE SHIT, DON'T WORRY ABOUT THIS
      */
-
 
     public ResultSet query(String table) throws SQLException
     {
