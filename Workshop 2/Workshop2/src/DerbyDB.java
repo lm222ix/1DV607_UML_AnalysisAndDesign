@@ -47,9 +47,9 @@ public class DerbyDB {
         }
     }
 
-    public void dropMemberTable() {
+    public void dropTable(String table) {
         try {
-            connection.createStatement().execute("DROP TABLE" + "MEMBER");
+            connection.createStatement().execute("DROP TABLE " + table);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
