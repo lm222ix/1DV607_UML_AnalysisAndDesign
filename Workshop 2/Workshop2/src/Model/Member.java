@@ -30,4 +30,9 @@ public class Member {
 		info = "ID" + this.getId() + ": " + this.getName() + "-" + this.getPersonalNumber();
 		return info;
 	}
+
+	@Override
+	public String toString() {
+		return "(" + "'"+this.getName()+"'" + ", " + "'" + this.getPersonalNumber() + "'" + ", " + "'" + String.valueOf(this.getId()) + "'" + ")";
+	}
 }

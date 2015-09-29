@@ -47,7 +47,7 @@ public class DerbyDB {
     public void insertMember(Member member)
 
     {
-        String query = "(" + new Field(member.getName()) + ", " + new Field(member.getPersonalNumber()) + ", " + new Field(String.valueOf(member.getId()))+")";
+        String query = member.toString();
         try {
             //questions marks mean they are anonymous
             connection.createStatement().execute("Insert into MEMBER values " + query);

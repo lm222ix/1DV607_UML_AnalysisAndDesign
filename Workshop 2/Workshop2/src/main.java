@@ -13,7 +13,7 @@ public class main {
 		db.createDB();
 		//db.createMemberTable();
 		//db.insertMember(a);
-		//db.insertMember(b);
+		db.insertMember(b);
 		db.print(db.query("Member"));
 	}
 }
