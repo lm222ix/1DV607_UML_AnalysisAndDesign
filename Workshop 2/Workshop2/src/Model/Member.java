@@ -32,6 +32,6 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return "(" + "'"+this.getName()+"'" + ", " + "'" + this.getPersonalNumber() + "'" + ", " + "'" + String.valueOf(this.getId()) + "'" + ")";
+		return "(" + "'"+this.getName()+"'" + ", " + "'" + this.getPersonalNumber() + "'" + ")";
 	}
 }

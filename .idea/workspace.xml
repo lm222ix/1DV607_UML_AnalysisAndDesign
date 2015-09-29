@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8807fb9a-dd1d-4db5-9fca-39ca62169adc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/derby.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/derbyclient.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Field.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/Model/Boat.class" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/Model/Boat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/Model/Member.class" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/Model/Member.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/main.class" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Boat.java" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Boat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/Model/IDTracker.class" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/bin/Model/IDTracker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/src/DerbyDB.java" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/src/DerbyDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/IDTracker.java" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/IDTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Member.java" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Member.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/Workshop2.iml" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/Workshop2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workshop 2/Workshop2/src/main.java" afterPath="$PROJECT_DIR$/Workshop 2/Workshop2/src/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Workshop2.iws" />
@@ -42,13 +32,8 @@
         <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Boat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,29 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Member.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
-              <folding />
+            <state vertical-scroll-proportion="0.6825397">
+              <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+              <folding>
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DerbyDB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DerbyDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/DerbyDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12698413">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1806#1807#0" expanded="true" />
-                <marker date="1443531553000" expanded="true" signature="861:1098" placeholder="create table..MEMBER..." />
-                <marker date="1443531553000" expanded="true" signature="886:1098" placeholder="create table..MEMBER..." />
-                <marker date="1443531553000" expanded="true" signature="1579:1605" placeholder="Insert into ..." />
-                <marker date="1443531553000" expanded="true" signature="1965:1979" placeholder="select * fro..missingValue..." />
+                <marker date="1443532094000" expanded="true" signature="861:1054" placeholder="create table..MEMBER..." />
+                <marker date="1443532094000" expanded="true" signature="886:1054" placeholder="create table..MEMBER..." />
+                <marker date="1443532094000" expanded="true" signature="1493:1519" placeholder="Insert into ..." />
+                <marker date="1443532094000" expanded="true" signature="1747:1770" placeholder="Insert into ..." />
+                <marker date="1443532094000" expanded="true" signature="2045:2059" placeholder="select * fro..missingValue..." />
               </folding>
             </state>
           </provider>
@@ -687,16 +674,23 @@
       <updated>1443097928163</updated>
       <workItem from="1443097934793" duration="5235000" />
       <workItem from="1443215603726" duration="142000" />
-      <workItem from="1443524408897" duration="3764000" />
+      <workItem from="1443524408897" duration="4011000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;trying to get automatically incremented id's to work.&quot;">
+      <created>1443531913284</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1443531913284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9141000" />
+    <option name="totallyTimeSpent" value="9388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="23" width="1260" height="674" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -736,6 +730,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;trying to get automatically incremented id's to work.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;trying to get automatically incremented id's to work.&quot;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -749,12 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +773,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -790,12 +786,11 @@
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <marker date="1443531553000" expanded="true" signature="861:1098" placeholder="create table..MEMBER..." />
-            <marker date="1443531553000" expanded="true" signature="886:1098" placeholder="create table..MEMBER..." />
-            <marker date="1443531553000" expanded="true" signature="1579:1605" placeholder="Insert into ..." />
-            <marker date="1443531553000" expanded="true" signature="1965:1979" placeholder="select * fro..missingValue..." />
+            <marker date="1443532094000" expanded="true" signature="861:1054" placeholder="create table..MEMBER..." />
+            <marker date="1443532094000" expanded="true" signature="886:1054" placeholder="create table..MEMBER..." />
+            <marker date="1443532094000" expanded="true" signature="1493:1519" placeholder="Insert into ..." />
+            <marker date="1443532094000" expanded="true" signature="1747:1770" placeholder="Insert into ..." />
+            <marker date="1443532094000" expanded="true" signature="2045:2059" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -804,12 +799,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +825,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,12 +838,11 @@
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <marker date="1443531553000" expanded="true" signature="861:1098" placeholder="create table..MEMBER..." />
-            <marker date="1443531553000" expanded="true" signature="886:1098" placeholder="create table..MEMBER..." />
-            <marker date="1443531553000" expanded="true" signature="1579:1605" placeholder="Insert into ..." />
-            <marker date="1443531553000" expanded="true" signature="1965:1979" placeholder="select * fro..missingValue..." />
+            <marker date="1443532094000" expanded="true" signature="861:1054" placeholder="create table..MEMBER..." />
+            <marker date="1443532094000" expanded="true" signature="886:1054" placeholder="create table..MEMBER..." />
+            <marker date="1443532094000" expanded="true" signature="1493:1519" placeholder="Insert into ..." />
+            <marker date="1443532094000" expanded="true" signature="1747:1770" placeholder="Insert into ..." />
+            <marker date="1443532094000" expanded="true" signature="2045:2059" placeholder="select * fro..missingValue..." />
           </folding>
         </state>
       </provider>
@@ -858,13 +850,8 @@
     <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Boat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,26 +873,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Member.java">
+    <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/DerbyDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
-          <folding />
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1443532094000" expanded="true" signature="861:1054" placeholder="create table..MEMBER..." />
+            <marker date="1443532094000" expanded="true" signature="886:1054" placeholder="create table..MEMBER..." />
+            <marker date="1443532094000" expanded="true" signature="1493:1519" placeholder="Insert into ..." />
+            <marker date="1443532094000" expanded="true" signature="1747:1770" placeholder="Insert into ..." />
+            <marker date="1443532094000" expanded="true" signature="2045:2059" placeholder="select * fro..missingValue..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/DerbyDB.java">
+    <entry file="file://$PROJECT_DIR$/Workshop 2/Workshop2/src/Model/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12698413">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.6825397">
+          <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <marker date="1443531553000" expanded="true" signature="861:1098" placeholder="create table..MEMBER..." />
-            <marker date="1443531553000" expanded="true" signature="886:1098" placeholder="create table..MEMBER..." />
-            <marker date="1443531553000" expanded="true" signature="1579:1605" placeholder="Insert into ..." />
-            <marker date="1443531553000" expanded="true" signature="1965:1979" placeholder="select * fro..missingValue..." />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
