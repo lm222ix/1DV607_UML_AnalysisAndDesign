@@ -1,8 +1,8 @@
 package Model;
 
 public class Boat {
-    private enum Type{
-		Sailboat, 
+    public enum Type{
+		String Sail_Boat = "Sailboat",
 		Motorsailer,
 		kayakCanoe,
 		Other;
@@ -16,9 +16,10 @@ public class Boat {
 
     private int boatID;
 
-	public Boat(double length, Type type) {
+	public Boat(Member owner, double length, Type type) {
 		this.length = length;
 		this.type = type;
+		this.memberID = owner.getId();
 	}
 
     public Type getType(){
@@ -28,11 +29,14 @@ public class Boat {
     public double getLength(){
         return this.length;
     }
+	public int getMemberID() {
+		return this.memberID;
+	}
 
 
     @Override
     public String toString() {
-        return "(" + "'"+this.getType()+"'" + "," +  "'" + String.valueOf(this.getLength()) + "'" + ")";
+        return "(" + "'"+ this.getType()+"'" + "," +  "'" + String.valueOf(this.getLength()) + "'" + "'" + String.valueOf(this.getMemberID()) + "'" + ")";
     }
 	
 }

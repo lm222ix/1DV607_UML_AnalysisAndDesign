@@ -50,10 +50,15 @@ public class DerbyDB {
     public void createBoatTable() {
         try {
             connection.createStatement().execute("" +
-                    "create table BOAT()
-            )
+                    "create table BOAT(Type varchar(15), " +
+                    "Length VARCHAR (5), " +
+                    "MemberID INTEGER REFERENCES MEMBER(id)," +
+                    "id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1))");
+        } catch(SQLException e) {
+                System.out.println(e.getMessage());
+            }
         }
-    }
+
     public void dropTable(String table) {
         try {
             connection.createStatement().execute("DROP TABLE " + table);
@@ -74,7 +79,7 @@ public class DerbyDB {
 
     public void createBoat(Boat boat) {
         try {
-            connection.createStatement().execute("Insert into BOAT values" + boat.toString());
+            connection.createStatement().execute("Insert into BOAT(Type, Length, MemberID) values" + boat.toString());
         } catch(SQLException e) {
             System.out.println(e.getMessage());
         }
