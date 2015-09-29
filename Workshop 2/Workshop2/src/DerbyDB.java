@@ -41,8 +41,15 @@ public class DerbyDB {
                     "create table MEMBER(Name varchar(40), " +
                     "PersonalNumber varchar(12), " +
                     "id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1))");
-          //  connection.createStatement().execute("create table TIMELINES(Title varchar(50), StartDate varchar(16), EndDate varchar (16), Duration varchar(160))");
 
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public void dropMemberTable() {
+        try {
+            connection.createStatement().execute("DROP TABLE" + "MEMBER");
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
