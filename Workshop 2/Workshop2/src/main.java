@@ -12,16 +12,17 @@ public class main {
 
 		DerbyDB db = new DerbyDB();
 		db.createDB();
-       db.createMemberTable();
-		db.createBoatTable();
+      	//db.createMemberTable();
+		//db.createBoatTable();
 
 		//db.dropTable("Member");
 		//db.dropTable("BOAT");
-		db.createMember(a);
-		db.createBoat(c);
+		//db.createMember(a);
+		//db.createBoat(c);
 		//db.createMember(b);
-		db.print(db.query("Member"));
+		//db.print(db.query("Member"));
 
-		db.print(db.query("Boat"));
+		db.print(db.getMemberID(a));
+		//db.print(db.query("Boat"));
 	}
 }

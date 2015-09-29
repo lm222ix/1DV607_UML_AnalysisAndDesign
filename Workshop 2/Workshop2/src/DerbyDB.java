@@ -41,10 +41,13 @@ public class DerbyDB {
                     "create table MEMBER(Name varchar(40), " +
                     "PersonalNumber varchar(12), " +
                     "id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1))");
-
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+    }
+
+    public ResultSet getMemberID(Member member) throws SQLException {
+            return connection.createStatement().executeQuery("SELECT ID FROM MEMBER WHERE NAME LIKE " + "'" + member.getName() + "'" );
     }
 
     public void createBoatTable() {
@@ -52,7 +55,9 @@ public class DerbyDB {
             connection.createStatement().execute("" +
                     "create table BOAT(Type varchar(15), " +
                     "Length VARCHAR (5), " +
-                    "MemberID VARCHAR(25)) ");
+                    "MemberID VARCHAR(5)) ");
+                    //"MemberID varchar(5) SELECT ID FROM MEMBER WHERE NAME=LUDDE)");
+            //connection.createStatement().execute("SELECT ID FROM MEMBER WHERE NAME=LUDDE");
         } catch(SQLException e) {
                 System.out.println(e.getMessage());
             }
@@ -71,7 +76,7 @@ public class DerbyDB {
         try {
             //questions marks mean they are anonymous
             connection.createStatement().execute("Insert into MEMBER (Name, PersonalNumber) values " + member.toString());
-            connection.createStatement().execute("SELECT ID FROM MEMBER WHERE NAME LIKE " '%word1%' + member.getName() + "");
+
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
