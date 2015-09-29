@@ -1,3 +1,4 @@
+import Model.Boat;
 import Model.Member;
 
 
@@ -55,6 +56,14 @@ public class DerbyDB {
         }
     }
 
+
+    public void createBoat(Boat boat) {
+        try {
+            connection.createStatement().execute("Insert into BOAT values" + boat.toString());
+        } catch(SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
 
 
     public ResultSet query(String table) throws SQLException
