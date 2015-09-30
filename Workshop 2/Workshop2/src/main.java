@@ -8,7 +8,7 @@ public class main {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException{
 		//Model.IDTracker idt = new Model.IDTracker();
 		Model.Member a = new Model.Member("LUDDE", "9409251171");
-		Model.Member b = new Model.Member("cpjohan", "9805231337");
+		Model.Member b = new Model.Member("cpRunkjohan", "9805231337");
 		Model.Boat c = new Model.Boat(a, 100, Boat.MOTORSAILER);
 
 		DerbyDB db = new DerbyDB();
